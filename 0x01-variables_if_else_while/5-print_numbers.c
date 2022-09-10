@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base
- *  
+ * main - prints all single digit numbers of base 
+ * followed by a new string
  * Return: Always 0 (Success)
 */
 
