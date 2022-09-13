@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - assigns a random number to int n everytime
+ * print_alphabet - print alphabet
  * it executes, and prints it
- * Return: 0;
+ * Return: void
  */
 void print_alphabet(void)
 {
