@@ -4,10 +4,10 @@
  *
  * Return: void
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int r = 0;
-	char l = 'a'
+	char l = 'a';
 
 		while(r < 0)
 		{
