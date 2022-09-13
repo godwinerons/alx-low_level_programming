@@ -1,12 +1,14 @@
-#include <main.h>
+#include "main.h"
+
 /**
- * main - assigns a random number to int n everytime
- * it executes, and prints it
- * Return: 0;
- */
+ * main - prints _putchar
+ * prints _putchar
+ * Return: 0 (Success)
+*/
+
 int main(void)
 {
-	char text[9] = "_putcher";
+	char text[9] = "_putchar";
 	int i = 0;
 	
 	for (i = 0; i < 8; i++)
@@ -16,4 +18,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
