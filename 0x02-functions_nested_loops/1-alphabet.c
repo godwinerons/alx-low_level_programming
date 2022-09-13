@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - assigns a random number to int n everytime
  * it executes, and prints it
