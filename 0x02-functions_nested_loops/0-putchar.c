@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <main.h>
 /**
- *  * main - assigns a random number to int n everytime
- *   * it executes, and prints it
- *    * Return: 0;
- *     */
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: 0;
+ */
 int main(void)
 {
 	char text[9] = "_putcher";
