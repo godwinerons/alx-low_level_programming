@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main"
 
 /**
  * main - print the sum of the multuple of 3 and 5 below 1024
