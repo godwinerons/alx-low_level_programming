@@ -18,5 +18,6 @@ int main(void)
 		c++;
 
 	}
+	printf("%d\n", sum);
 	return (0);
 }
