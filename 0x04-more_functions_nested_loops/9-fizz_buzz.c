@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry piont
@@ -22,3 +23,4 @@ int main(void)
 	printf("Buzz\n");
 
 	return (0);
+}
