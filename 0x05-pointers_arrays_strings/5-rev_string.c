@@ -15,7 +15,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	max = i + 1;
+	max = i - 1;
 	half = max / 2;
 	while (half >= 2)
 	{
