@@ -8,7 +8,7 @@
 char *cap_string(char *s)
 {
 	int a = 0, b;
-	int sap_work[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int sap_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
 	if (*(s + a) >= 97 && *(s + a) <= 122)
 		*(s + a) = *(s + a) - 32;
@@ -17,7 +17,7 @@ char *cap_string(char *s)
 	{
 		for (b = 0; b < 13; b++)
 		{
-			if (*(s + a) == sep_work[b])
+			if (*(s + a) == sep_words[b])
 			{
 				if ((*(s + (a + 1)) >= 97) && (*(s + (a + 1)) <= 122))
 					*(s + (a + 1)) = *(s + (a + 1)) - 32;
