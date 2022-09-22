@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * _strncat - concatenates two strings but will use at mose the n byte
@@ -23,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 		a++;
 		b++;
 	}
-	return (dest)
+	return (dest);
 }
